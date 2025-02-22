@@ -14,27 +14,32 @@ body {
   background-color: #ffffff;
   border: 1px solid #dbdbdb;
   border-radius: 2px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .profile-content {
-  display: inline-flex;
-  width: 396px;
-  height: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 356px;
+  height: 155px;
+  padding: 20px;
 }
 
 .profile-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .profile-item {
+  position: relative;
   padding: 10px;
+  width: 64px;
+  height: 64px;
+  list-style-type: none;
+  display: inline-block;
+
   .profile-img {
     width: 64px;
     height: 64px;
