@@ -17,3 +17,27 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.profile-content {
+  display: inline-flex;
+  width: 396px;
+  height: 195px;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.profile-item {
+  padding: 10px;
+  .profile-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+}
