@@ -46,7 +46,7 @@ body {
   height: 64px;
   border-radius: 50%;
 }
-.current-state {
+.state {
   position: absolute;
   display: inline-block;
   bottom: 10px;
@@ -56,5 +56,9 @@ body {
   height: 17.78px;
   border: 1px solid #fff;
   border-radius: 100%;
+  background-color: #dbdbdb;
+}
+
+.offline {
   background-color: #4cfe88;
 }
