@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f6f8;
+}
+
+.profile-container {
+  width: 420px;
+  height: 225px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+}
