@@ -1,1 +1,28 @@
 /* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+@import url(/src/common/modern-reset.css);
+
+:root {
+  /* Color styles */
+  --primary: #03cf5d;
+  --white: #ffffff;
+  --black: #333333;
+  --black-alpha: #000000;
+  --warning: #ff1414;
+
+  --gray-10: #dadada;
+  --gray-20: #999999;
+  --gray-30: #666666;
+
+  /* Text styles */
+  --regular-12: 0.75rem;
+  --regular-14: 0.875rem;
+  --regular-15: 1rem;
+}
+
+body {
+  font-family: "SUIT", "sans-serif";
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background: var(--white);
+}
