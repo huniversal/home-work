@@ -131,11 +131,11 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   padding-inline-end: 0.3125rem;
-  background: url("./src/login/img/unchecked.svg") no-repeat center/contain;
+  background: url("../img/unchecked.svg") no-repeat center/contain;
 }
 
 .login-keep input[type="checkbox"]:checked + label::before {
-  background: url("./src/login/img/checked.svg") no-repeat center/contain;
+  background: url("../img/checked.svg") no-repeat center/contain;
 }
 
 /* IP 보안 링크 스타일 조정 */
