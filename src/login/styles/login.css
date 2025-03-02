@@ -17,12 +17,12 @@
   --regular-14: 0.875rem;
   --regular-16: 1rem;
 }
-
+/* =================================================== */
 body {
   font-family: "SUIT", sans-serif;
   margin: 0;
   padding: 0;
-  font-size: var(--regular-15);
+  font-size: var(--regular-16);
   color: var(--black);
   background: var(--white);
   display: flex;
@@ -36,30 +36,31 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 460px;
+  max-width: 31.25rem;
 }
 
 .logo-naver img {
-  width: 230px;
-  margin-bottom: 50px;
+  width: 14.375rem;
+  margin-block-end: 3.125rem;
 }
 
 .login-form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .account-form input {
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
   border: 1px solid var(--gray-10);
   height: 3rem;
 }
 
 .account-form input:focus {
   border-color: var(--primary);
+  background: #000;
 }
 
 /* 입력값이 유효하지 않을 때 에러 메시지 표시 */
@@ -71,22 +72,22 @@ body {
   color: var(--warning);
   font-size: var(--regular-14);
   display: none;
-  margin-top: 7px;
+  margin-block-start: 0.4375rem;
 }
 
 .login-button {
   width: 100%;
-  padding-top: 20px;
+  padding-block-start: 1.25rem;
 }
 
 .login-btn {
   width: 100%;
-  padding: 12px;
+  padding: 0.75rem;
   background: var(--primary);
   color: var(--white);
   border: none;
   height: 3.5rem;
-  font-size: var(--regular-15);
+  font-size: var(--regular-16);
 }
 
 .login-options {
@@ -95,7 +96,7 @@ body {
   align-items: center;
   width: 100%;
   max-width: inherit;
-  margin-top: 10px;
+  margin-block-start: 0.625rem;
 }
 
 .login-keep,
@@ -112,29 +113,27 @@ body {
   width: 1px;
   height: 1px;
 }
-/* 선생님 키보드로 접근을 어떻게 해야할지 잘 모르겠습니다... */
 
-/* 체크박스 커스텀 */
+/* 체크박스 스타일 적용 */
 .login-keep label {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.3125rem;
   font-size: var(--regular-14);
   color: var(--black);
   cursor: pointer;
   user-select: none;
 }
 
-/* 체크박스 스타일 적용 */
 .login-keep label::before {
   content: "";
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-inline-end: 0.3125rem;
   background: url("/src/login/img/unchecked.svg") no-repeat center/contain;
 }
 
-/* 체크된 상태 */
 .login-keep input[type="checkbox"]:checked + label::before {
   background: url("/src/login/img/checked.svg") no-repeat center/contain;
 }
@@ -144,12 +143,12 @@ body {
   text-decoration: none;
   color: var(--black);
   font-size: var(--regular-14);
-  margin-right: 5px;
+  margin-inline-end: 0.3125rem;
 }
 
 .login-ip label span {
   display: inline-block;
-  min-width: 30px;
+  min-width: 1.875rem;
   text-align: left;
 }
 
@@ -177,10 +176,10 @@ body {
   border: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .login-container {
     max-width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .login-options {
