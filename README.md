@@ -11,14 +11,14 @@
 
 ## 3주차 Avatar
 
-- [avatars.html] {./src/avatars/avatars.html}
-- [avatars.css] {./src/avatars/avatars.css}
+- [avatars.html] (./src/avatars/avatars.html)
+- [avatars.css] (./src/avatars/styles/avatars.css)
 - [회고] (./src/md/avatars.md)
 
 ---
 
 ## 4주차 Login
 
-- [login.html] {./src/login.html}
-- [login.css] {./src/login.css}
+- [login.html] (./src/login/login.html)
+- [login.css] (./src/login/styles/login.css)
 - [회고] (./src/md/login.md)
