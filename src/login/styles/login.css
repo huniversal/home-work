@@ -7,6 +7,7 @@
   --black: #333333;
   --black-alpha: #000000;
   --warning: #ff1414;
+  --focus-bg: #24388d;
 
   --gray-10: #dadada;
   --gray-20: #999999;
@@ -60,7 +61,7 @@ body {
 
 .account-form input:focus {
   border-color: var(--primary);
-  background: #000;
+  background: var(--focus-bg);
 }
 
 /* 입력값이 유효하지 않을 때 에러 메시지 표시 */
