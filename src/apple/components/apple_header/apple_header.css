@@ -1,0 +1,92 @@
+@import "/src/apple/styles/base.css";
+@import "/src/apple/styles/reset.css";
+@import "/src/apple/styles/theme.css";
+body {
+  background: #fafafc;
+}
+
+.apple-header {
+  height: 44px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafc;
+  backdrop-filter: blur(10px);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.apple-header a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.apple-header img {
+  height: 15px;
+  display: block;
+}
+
+.content__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  background: #f5f5f7;
+
+  .intro__text {
+    margin: 0;
+  }
+  .apple_shopping {
+    color: #0071e3;
+    text-decoration: none;
+  }
+  .apple_shopping:hover {
+    text-decoration: none;
+  }
+
+  .apple_shopping:visited {
+    color: #0071e3;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .apple-header {
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+
+  .apple-header a {
+    display: none;
+  }
+
+  .apple-header a:first-child,
+  .apple-header a:last-child,
+  .apple-header a:nth-last-child(2) {
+    display: flex;
+  }
+
+  .apple-header::after {
+    content: "≡";
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+  }
+}
