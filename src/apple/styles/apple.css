@@ -1,6 +1,6 @@
-@import "./styles/base.css";
-@import "./styles/reset.css";
-@import "./styles/theme.css";
+@import "../styles/base.css";
+@import "../styles/reset.css";
+@import "../styles/theme.css";
 
 :root {
   /* Color */
@@ -107,40 +107,40 @@ body {
 /* 제품별 배경 이미지 설정(픽셀 대응) */
 /* ==================================== */
 .card-item.ipad-pro {
-  background-image: url("./products/ipad_pro.jpeg");
+  background-image: url("../products/ipad_pro.jpeg");
 
   @media (min-resolution: 192dpi) {
-    background: url("./products/ipad_pro_2x.jpeg") no-repeat center / cover;
+    background: url("../products/ipad_pro_2x.jpeg") no-repeat center / cover;
   }
 }
 .card-item.ipad-air {
-  background-image: url("./products/ipad_air.jpeg");
+  background-image: url("../products/ipad_air.jpeg");
   color: #000;
 
   @media (min-resolution: 192dpi) {
-    background: url("./products/ipad_air_2x.jpeg") no-repeat center / cover;
+    background: url("../products/ipad_air_2x.jpeg") no-repeat center / cover;
   }
 }
 .card-item.iphone-pro {
-  background-image: url("./products/iphone15_pro.jpeg");
+  background-image: url("../products/iphone15_pro.jpeg");
 
   @media (min-resolution: 192dpi) {
-    background: url("./products/iphone15_pro_2x.jpeg") no-repeat center / cover;
+    background: url("../products/iphone15_pro_2x.jpeg") no-repeat center / cover;
   }
 }
 .card-item.iphone {
-  background-image: url("./products/iphone15.jpeg");
+  background-image: url("../products/iphone15.jpeg");
   color: #000;
 }
 .card-item.apple-watch {
-  background-image: url("./products/apple_watch.jpeg");
+  background-image: url("../products/apple_watch.jpeg");
 }
 .card-item.macbook {
-  background-image: url("./products/macbook_air.jpeg");
+  background-image: url("../products/macbook_air.jpeg");
   color: #000;
 }
 .card-item.airpods {
-  background-image: url("./products/airpods_pro.jpeg");
+  background-image: url("../products/airpods_pro.jpeg");
 }
 
 /* ==================================== */
@@ -219,18 +219,18 @@ body {
 
   .card-item.ipad-pro {
     grid-area: ipad-pro;
-    background-image: url("./products/ipad_pro_wide.jpeg");
+    background-image: url("../products/ipad_pro_wide.jpeg");
   }
 
   .card-item.ipad-air {
     grid-area: ipad-air;
-    background-image: url("./products/ipad_air_wide.jpeg");
+    background-image: url("../products/ipad_air_wide.jpeg");
     color: #000;
   }
 
   .card-item.iphone-pro {
     grid-area: iphone-pro;
-    background-image: url("./products/iphone15_pro_wide.jpeg");
+    background-image: url("../products/iphone15_pro_wide.jpeg");
   }
 
   .card-item.iphone {
