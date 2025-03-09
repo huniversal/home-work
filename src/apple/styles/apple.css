@@ -80,6 +80,39 @@ body {
 }
 
 /* ==================================== */
+/* Header 반응형 */
+/* ==================================== */
+
+@media (max-width: 1024px) {
+  .apple-header {
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+
+  .apple-header a {
+    display: none;
+  }
+
+  .apple-header a:first-child {
+    display: flex;
+  }
+
+  .apple-header .apple-logo {
+    margin-left: 0;
+  }
+
+  .apple-header::after {
+    content: "≡";
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+/* ==================================== */
 /* Main Content */
 /* ==================================== */
 .card-container {
