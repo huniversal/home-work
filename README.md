@@ -30,3 +30,4 @@
 - [apple.html](./src/apple/apple.html)
 - [apple.css](./src/apple/styles/apple.css)
 - [회고](./src/md/apple.md)
+## 배포(deploy) 준비
